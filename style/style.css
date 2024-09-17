@@ -6,7 +6,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-image: url(/media/hero\ image\ Background.png);
+  background-image: url(/media/hero image Background.png);
   background-size: cover;
   background-position: center;
   padding: 50px 50px;
