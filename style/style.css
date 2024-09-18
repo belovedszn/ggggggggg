@@ -6,7 +6,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-image: url(/media/bg.jpg);
+  background-image: url(../media/hero\ image\ Background.png);
   background-size: cover;
   background-position: center;
   padding: 50px 50px;
@@ -420,6 +420,34 @@ blockquote::after {
 
 @media (max-width: 600px) {
   .testimony-container img {
+    max-width: 200px;
+  }
+}
+
+@media (max-width: 300px) {
+  .second-container .boxx {
+    padding: 10px;
+  }
+  .main {
+    padding: 15px;
+  }
+  .feature-box h3 {
+    font-size: 20px;
+  }
+  
+  .feature-box p {
+    font-size: 16px;
+  }
+  .xxxvii {
+    display: none;
+  }
+  .feature-box {
+    padding: 15px 20px;
+  }
+  .second-container .right-part h3 {
+    font-size: 20px;
+  }
+  .right-part img {
     max-width: 200px;
   }
 }
