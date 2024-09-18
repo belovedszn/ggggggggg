@@ -8,8 +8,8 @@
 }
 
 .faq-container h3 {
-    font-size: 30px;
-    font-family: "Heebo";
+  font-size: 30px;
+  font-family: "Heebo";
 }
 
 details {
@@ -92,7 +92,7 @@ summary:focus {
 @media (max-width: 999px) {
   .faq-container {
     padding: 30px;
-  } 
+  }
 }
 
 @media (max-width: 600px) {
@@ -101,5 +101,14 @@ summary:focus {
   }
   details {
     font-size: 14px;
+  }
+  .faq-container h3 {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 300px) {
+  .faq-container h3 {
+    font-size: 20px;
   }
 }
