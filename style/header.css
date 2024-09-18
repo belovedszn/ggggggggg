@@ -87,6 +87,10 @@ body {
   transition: 0.3s;
 }
 
+.navbar .mobile {
+  display: none;
+}
+
 @media screen and (max-width: 998px) {
   .nav-links {
     display: none;
@@ -117,3 +121,12 @@ body {
   }
 }
 
+@media (max-width: 768px) {
+  .navbar-brand .logo {
+    display: none;
+  }
+  .navbar .mobile {
+    display: flex;
+    padding-top: 20px;
+  }
+}
